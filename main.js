@@ -20,10 +20,16 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
+  // mainWindow.loadFile('index.html')
+  // mainWindow.loadFile('./z7z8/3d-orthographic-view/dist/index.html')
+  // mainWindow.loadURL('http://0.0.0.0:8080/examples/?q=mmd#webgl_loader_mmd ')
+  mainWindow.loadURL('http://0.0.0.0:8080/examples/webgl_loader_mmd.html')
+
+  
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
+  // window.open(url[, frameName][, features])
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
